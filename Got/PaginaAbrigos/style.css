@@ -13,6 +13,12 @@
     height: 50px;
 }
 
+footer {
+  display: block;
+  background-color : #000000;
+  color: wheat;
+}
+
 .panelRopa{
     display: inline-block;
     height: 100%;
@@ -67,3 +73,52 @@
     background-color: #4CAF50;
     color: white;
   }
+
+  .contenedorTarjetas{
+    width:100%;
+    margin-top: 30px;
+}
+.tarjetaUnTercio{
+    width: 30%;
+}
+.imagenAnchoCompleto img{
+    width: 100%;
+
+}
+
+.tituloEntreTarjetas{
+    font-size: 60px;
+    color: white;
+    text-align:center;
+}
+.tarjeta{
+    display: inline-block;
+    padding:1%;  
+}
+.tarjeta img{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.tarjetaUnCuarto{
+    width: 22%;
+}
+.descripcionTarjeta{
+    width:60%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5px;
+    vertical-align: top;
+    padding:1%;
+    background-color: #000000;
+    color:blanchedalmond;
+    font-size: 10px;
+}
+.enlace{
+    width:25%;
+    display: inline-block;
+}
+.pieFoto{
+    width:100%;
+    background-color: #000000;
+}
