@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="imgLogo" href="index.html"><img class="imgLogo2" src="../imagesAbrigo/logo.png"/></a>
+            <a href="login.html">Usuario</a>
+            <a href="cesta.html">Cesta</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+       
+        <div>
+            <form>
+                <p>
+                    Nombre: 
+                </p>
+                <p>
+                    <input type="text" name="nombre">
+                </p>
+
+                <p>
+                    Apellido: 
+                </p>
+                <p>
+                    <input type="text" name="Apellido">
+                </p>
+                <p>
+                    Correo electronico:
+                </p>
+                <p>
+                    <input type="text" name="Correo">
+                </p>
+                <p>
+                    Comentarios: 
+                </p>
+                <p>
+                    <textarea name="comentarios" id="comentarios" cols="45" rows="5"></textarea>
+                </p>
+                <p>
+                    <input type="radio" name="gender" value="compradorUsual" checked> Compro todos los meses
+                </p>
+                <p>
+                        <input type="radio" name="gender" value="compradorNormal"> He comprado alguna vez
+                </p>
+                <p>
+                        <input type="radio" name="gender" value="noComprador"> Nunca he comprado aqui
+                </p>
+
+                <p>
+                    <label for="select">Edad</label>
+                    <select name="select" id="select">
+                        <option value="1">0-15</option>
+                        <option value="2">16-30</option>
+                        <option value="3">31-45</option>
+                        <option value="4">46-60</option>
+                        <option value="5">61-75</option>
+                        <option value="6">76-90</option>
+                        <option value="7">91-105</option>
+                      </select>
+                    </p>
+                <p>
+                    <label for="select2">Tallas</label>   
+                </p>
+                <select name="select2" size="5" id="select2">
+                    <option value="1">Xs</option>
+                    <option value="2">S</option>
+                    <option value="3">M</option>
+                    <option value="4">L</option>
+                    <option value="5">XL</option>
+                    <option value="6">XXL</option>
+                    <option value="7">XXXL</option>
+                </select>
+
+                <p>
+                    <input name="checkbox" id="checkbox" type="checkbox">
+                    <label for="checkbox">¿Tienes tarjeta de socio?</label>
+                </p>
+
+                <p>
+                    <input type="button" onClick="parent.location='contacto2.html'" value="Enviar">
+                </p>
+              </form> 
+
+        </div>
+
+        <footer>
+            <p>Posted by: Hege Refsnes</p>
+            <p>Contact information: 
+            <a href="mailto:someone@example.com">
+            someone@example.com</a>.</p>
+          </footer> 
+            
+    </body>
+    </html>
